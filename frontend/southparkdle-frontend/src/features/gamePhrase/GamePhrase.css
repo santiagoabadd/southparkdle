@@ -1,0 +1,120 @@
+.shadows-header{
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55 ;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shadow-container-no-match{
+    
+    background-color: #9c6b55 ;
+    width: 350px;
+    height: 86px;
+    position: relative;
+    animation: mover 0.4s 1;
+  }
+
+  .shadow-container-match{
+    margin-top: 15px;
+    background-color: #9c6b55 ;
+    width: 350px;
+    height: 86px;
+    position: relative;
+    animation: win 0.4s 1;
+  }
+
+  @keyframes mover {
+    0% { left: 0; }
+    25% { left: 10px; }
+    75% { left: -10px; }
+    100% { left: 0; }
+  }
+
+  @keyframes mover {
+    0% { left: 0; }
+    25% { left: 10px; }
+    75% { left: -10px; }
+    100% { left: 0; }
+  }
+
+  @keyframes win {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+  
+  .selected-character-shadow{
+    margin-bottom: 10px;
+  }
+
+  .shadow-image{
+    height: 80px;
+  }
+
+  .phrase-container{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .phrase-container > div{
+    font-family: "South Park", sans-serif!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    height: 50px;
+    width: 350px;
+  }
+  
+
+  .shadows-header-container{
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+
+  .shadow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    border: 2px solid rgb(81, 49, 49);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .4392156862745098);
+
+  }
+
+ 
+
+  .shadows-header > div{
+    
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: "South Park", sans-serif!important;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }

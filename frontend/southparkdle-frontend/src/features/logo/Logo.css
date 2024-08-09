@@ -1,0 +1,14 @@
+.logo-imagen{
+    height:180px;
+}
+
+.logo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-imagen:hover {
+    transform: scale(1.1); /* Escala al 110% cuando el mouse está encima */
+}

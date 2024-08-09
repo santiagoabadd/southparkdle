@@ -1,0 +1,230 @@
+/* Estilo para el contenedor principal */
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  
+
+  .gameGuess-container-flex{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @keyframes rotateIn {
+    from {
+      transform: rotateY(90deg); /* La rotación inicial */
+    }
+    to {
+      transform: rotateY(0deg); /* La rotación final */
+    }
+  }
+  
+  .attribute-container-animated {
+    background-color: #9c6b55 ;
+    width: 75px;
+    animation: rotateIn 0.5s ease forwards; /* Aplica la animación a cada atributo */
+  }
+
+  .selected-character{
+    margin-bottom: 10px;
+  }
+
+  .attribute-header{
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55 ;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .attribute-container{
+    background-color: #9c6b55 ;
+    width: 75px;
+    
+  }
+
+  .seach-character{
+  padding-left: 20px ;
+   display: flex;
+   align-items: center;
+   color: #000;
+   font-family: "South Park", sans-serif!important;
+  }
+
+  .search-item{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .search-results > div{
+    display: flex;
+    padding: 0px;
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55 ;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .search-image{
+    height: 60px;
+  }
+  
+  .emojis-header-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .attribute-header > div{
+    
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: "South Park", sans-serif!important;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  .selected-characters-table{
+    margin-bottom: 10px;
+    display: flex;
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .attributes-header{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .gameGuess-container{
+    width: 900px;
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+  }
+
+  .arttribute {
+    --max-width: 60px;
+    /* Establece el ancho máximo del contenedor */
+  }
+
+  .arttribute > div {
+    text-align: center;
+    max-width: 100%; /* Ancho máximo del texto */
+    /* Evita que el texto se divida en varias líneas */
+    /* Agrega puntos suspensivos (...) al final del texto que no cabe */
+  }
+  .arttribute > div {
+    color: #000;
+    font-family: Inter, Helvetica, Arial;
+    font-size: calc(14px * 60px / var(--max-width)); /* 60px es el ancho del div, ajusta según sea necesario */
+  }
+  .arttribute > span {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+    font-weight: 600;
+    font-family: Inter, Helvetica, Arial;
+    font-size: 12px; /* 60px es el ancho del div, ajusta según sea necesario */
+  }
+
+  .arttribute{
+    
+   
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .4392156862745098);
+  } 
+ 
+  
+  .search-results {
+    max-height: 200px; /* Altura máxima del contenedor de resultados */
+    overflow-y: auto;
+    margin-top: 5px;
+    
+    width: 350px; /* Agrega una barra de desplazamiento vertical si es necesario */
+  }
+
+  .character-image{
+    height: 60px;
+  }
+
+  /* Estilo de la barra de desplazamiento */
+.search-results::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra */
+  background-color: #dfdede;
+}
+
+.search-results::-webkit-scrollbar-track {
+  display: none;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  background: #888; /* Color del 'pulgar' de la barra de desplazamiento */
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del 'pulgar' cuando se pasa el mouse sobre él */
+}
+
+  
+
+  /* Estilo para las etiquetas de atributos */
+  .attributes {
+    color: #ccc;
+    display: grid;
+    width: 650px;
+    grid-template-columns: repeat(8, 1fr);
+    
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  
+  /* Estilo para los elementos de la búsqueda */
+  .search-box {
+    
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  
+ 
+  input[type="text"] {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  /* Estilo para los elementos de los resultados */
+ 
+  /* Estilo para los elementos de los resultados al pasar el ratón */
+  .search-results div:hover {
+    background-color: #f0f0f0;
+  }

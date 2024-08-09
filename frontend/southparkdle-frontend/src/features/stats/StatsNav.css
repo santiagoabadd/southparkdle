@@ -1,0 +1,27 @@
+.statsnav-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.stats-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 260px;
+    background-color:#9c6b55 ;
+    border: #513131 3px solid;
+}
+
+.stat-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.stat-item:hover {
+    transform: scale(1.16); /* Escala al 110% cuando el mouse está encima */
+}

@@ -1,0 +1,81 @@
+.shadows-header{
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55 ;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shadow-container{
+    background-color: #9c6b55 ;
+    width: 75px;
+    height: 50px;
+  }
+  
+  .selected-character-shadow{
+    margin-bottom: 10px;
+  }
+
+  .shadow-image{
+    height: 40px;
+  }
+
+  
+
+  .shadows-header-container{
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+
+  .shadow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .shadows-header > div{
+    
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: "South Park", sans-serif!important;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  .shadow-guess-container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shadow-guess-container{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 0px 1px #513131;
+    background-color: #9c6b55 ;
+    margin-bottom: 10px;
+    
+  }
+
+  .shadow-guess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  .shadow-guess-image{
+    height: 190px;
+    filter: brightness(0);
+    
+  }

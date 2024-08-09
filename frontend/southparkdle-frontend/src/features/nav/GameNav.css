@@ -1,0 +1,66 @@
+.gamenav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 60px;
+
+}
+
+.game-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10px;
+    width: 320px;
+    background-color:#9c6b55 ;
+    border: #513131 3px solid;
+}
+
+.game-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.item-content:hover {
+    transform: scale(1.16); /* Escala al 110% cuando el mouse está encima */
+}
+
+.item-content{
+    width: 54px;
+    margin-left:5px;
+    overflow: hidden; 
+    height: 54px;
+    
+    border-radius:27px 27px 27px 27px;
+}
+
+.item-imagen-classic{
+    height: 50px;
+    background-size: cover; 
+    margin-left: 1.3px;
+}
+
+.item-imagen-shadow{
+    height: 60px;
+    margin-left:8px;
+    filter: invert(100%) brightness(200%);
+
+}
+
+.item-imagen-frase{
+    height: 50px;
+  margin-top: 2px;
+  margin-left: 1px;
+    
+
+}
+
+.item-imagen-emoji{
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 1px;
+
+}
