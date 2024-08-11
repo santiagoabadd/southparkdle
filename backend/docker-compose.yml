@@ -7,9 +7,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      DB_URL: jdbc:mysql://soutparkdle_bd:3306/southparkdle
+      DB_URL: 
       DB_USER_NAME: root
-      DB_PASSWORD: jilguero1
+      DB_PASSWORD: 
     restart: always
     depends_on:
       soutparkdle_bd:
@@ -19,8 +19,8 @@ services:
     ports:
       - "3307:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: jilguero1
-      MYSQL_PASSWORD: jilguero1
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_PASSWORD: 
       MYSQL_DATABASE: southparkdle
     restart: always
     healthcheck:
